@@ -23,9 +23,9 @@ tags: tag1 tag3
 
 ***
 
-#
 
-<a name="Headings"></a>
+
+# <a name="Headings"></a>
 Headings
 
 
@@ -74,10 +74,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 [[Top]](#top)
 
-# 
+ 
 
-<a name="Paragraphs"></a>
-# Paragraphs
+# <a name="Paragraphs"></a>
+Paragraphs
 
 
 Incididunt ex adipisicing ea ullamco consectetur in voluptate proident fugiat tempor deserunt reprehenderit ullamco id dolore laborum. Do laboris laboris minim incididunt qui consectetur exercitation adipisicing dolore et magna consequat magna anim sunt. Officia fugiat Lorem sunt pariatur incididunt Lorem reprehenderit proident irure. Dolore ipsum aliqua mollit ad officia fugiat sit eu aliquip cupidatat ipsum duis laborum laborum fugiat esse. Voluptate anim ex dolore deserunt ea ex eiusmod irure. Occaecat excepteur aliqua exercitation aliquip dolor esse eu eu.
@@ -114,21 +114,31 @@ Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat v
 
 # 
 
-<a name="Lists"></a>Lists
+<a name="Lists"></a>
+Lists
+
 
 ### Ordered List
 
+
 1. Longan
+
 2. Lychee
+
 3. Excepteur ad cupidatat do elit laborum amet cillum reprehenderit consequat quis.
     Deserunt officia esse aliquip consectetur duis ut labore laborum commodo aliquip aliquip velit pariatur dolore.
+
 4. Marionberry
+
 5. Melon
     - Cantaloupe
     - Honeydew
     - Watermelon
+
 6. Miracle fruit
+
 7. Mulberry
+
 
 ### Unordered List
 
@@ -140,10 +150,14 @@ Adipisicing voluptate ipsum culpa voluptate id aute laboris labore esse fugiat v
 - Ut aute ipsum occaecat nisi culpa Lorem id occaecat cupidatat id id magna laboris ad duis. Fugiat cillum dolore veniam nostrud proident sint consectetur eiusmod irure adipisicing.
 - Passionfruit
 
+
 [[Top]](#top)
 
-# 
-<a name="Horizontal"></a>Horizontal rule
+
+
+# <a name="Horizontal"></a>
+Horizontal 
+rule
 
 In dolore velit aliquip labore mollit minim tempor veniam eu veniam ad in sint aliquip mollit mollit. Ex occaecat non deserunt elit laborum sunt tempor sint consequat culpa culpa qui sit. Irure ad commodo eu voluptate mollit cillum cupidatat veniam proident amet minim reprehenderit.
 
@@ -151,9 +165,14 @@ In dolore velit aliquip labore mollit minim tempor veniam eu veniam ad in sint a
 
 In laboris eiusmod reprehenderit aliquip sit proident occaecat. Non sit labore anim elit veniam Lorem minim commodo eiusmod irure do minim nisi. Dolor amet cillum excepteur consequat sint non sint.
 
+
 [[Top]](#top)
 
-# <a name="Table"></a>Table
+
+
+# <a name="Table"></a>
+Table
+
 
 Duis sunt ut pariatur reprehenderit mollit mollit magna dolore in pariatur nulla commodo sit dolor ad fugiat. Laboris amet ea occaecat duis eu enim exercitation deserunt ea laborum occaecat reprehenderit. Et incididunt dolor commodo consequat mollit nisi proident non pariatur in et incididunt id. 
 
@@ -169,17 +188,27 @@ Eu ut et Lorem ea ex magna minim ipsum ipsum do.
 
 Minim id consequat adipisicing cupidatat laborum culpa veniam non consectetur et duis pariatur reprehenderit eu ex consectetur. Sunt nisi qui eiusmod ut cillum laborum Lorem officia aliquip laboris ullamco nostrud laboris non irure laboris. Cillum dolore labore Lorem deserunt mollit voluptate esse incididunt ex dolor.
 
+
+
 [[Top]](#top)
 
-# <a name="Code"></a>Code
+
+
+# <a name="Code"></a>
+Code
+
 
 ## Inline code
 
+
 Ad amet irure est magna id mollit Lorem in do duis enim. Excepteur velit nisi magna ea pariatur pariatur ullamco fugiat deserunt sint non sint. Duis duis est `code in text` velit velit aute culpa ex quis pariatur pariatur laborum aute pariatur duis tempor sunt ad. Irure magna voluptate dolore consectetur consectetur irure esse. Anim magna `<strong>in culpa qui officia</strong>` dolor eiusmod esse amet aute cupidatat aliqua do id voluptate cupidatat reprehenderit amet labore deserunt.
+
 
 ## Highlighted
 
-Et fugiat ad nisi amet magna labore do cillum fugiat occaecat cillum Lorem proident. In sint dolor ullamco ad do adipisicing amet id excepteur Lorem aliquip sit irure veniam laborum duis cillum. Aliqua occaecat minim cillum deserunt magna sunt laboris do do irure ea nostrud consequat ut voluptate ex.
+
+Et fugiat ad nisi amet magna labore do cillum fugiat occaecat cillum Lorem proident. In sint dolor ullamco ad do adipisicing amet id excepteur Lorem aliquip sit irure veniam laborum duis cillum. Aliqua occaecat minim cillum deserunt magna sunt laboris do do irure ea nostrud consequat ut voluptate ex
+.
 
 ```go
 package main
@@ -203,17 +232,26 @@ Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occ
 
 [[Top]](#top)
 
-# <a name="Inline"></a>Inline elements
+
+
+# <a name="Inline"></a>
+Inline elements
+
 
 Sint ea anim ipsum ad commodo cupidatat do **exercitation** incididunt et minim ad labore sunt. Minim deserunt labore laboris velit nulla incididunt ipsum nulla. Ullamco ad laborum ea qui et anim in laboris exercitation tempor sit officia laborum reprehenderit culpa velit quis. **Consequat commodo** reprehenderit duis [irure](#!) esse esse exercitation minim enim Lorem dolore duis irure. Nisi Lorem reprehenderit ea amet excepteur dolor excepteur magna labore proident voluptate ipsum. Reprehenderit ex esse deserunt aliqua ea officia mollit Lorem nulla magna enim. Et ad ipsum labore enim ipsum **cupidatat consequat**. Commodo non ea cupidatat magna deserunt dolore ipsum velit nulla elit veniam nulla eiusmod proident officia.
 
-![Super wide](http://placekitten.com/1280/800)
+!
+[Super wide](http://placekitten.com/1280/800)
+
 
 *Proident sit veniam in est proident officia adipisicing* ea tempor cillum non cillum velit deserunt. Voluptate laborum incididunt sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor cupidatat esse enim minim ex anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris `culpa ex duis sint` anim aute reprehenderit id eu ea. Aute [excepteur proident](#!) Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim.
 
-![Not so big](http://placekitten.com/480/400)
+!
+[Not so big](http://placekitten.com/480/400)
+
 
 Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip incididunt voluptate magna amet cupidatat cillum pariatur sint aliqua est _enim **anim** voluptate_. Magna aliquip proident incididunt id duis pariatur eiusmod incididunt commodo culpa dolore sit. Culpa do nostrud elit ad exercitation anim pariatur non minim nisi **adipisicing sunt _officia_**. Do deserunt magna mollit Lorem commodo ipsum do cupidatat mollit enim ut elit veniam ea voluptate.
+
 
 [![Box](http://img.youtube.com/vi/qEuD6v1Y9fg/0.jpg)](http://www.youtube.com/watch?v=qEuD6v1Y9fg)
 
