@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "note"
+title                    : "potatoman's note"
 title_separator          : "-"
 subtitle                 : "version 0.1" # site tagline that appears below site title in masthead
 name                     : "HyoGon Kim"
-description              : "hygon's note"
+description              : "potatoman's note"
 url                      : "https://potatoman1028.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "potatoman1028/potatoman1028.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "note" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "potatoman's note" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
