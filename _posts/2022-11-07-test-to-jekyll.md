@@ -1,11 +1,16 @@
 ---
 title:  "TEST1"
-header:
-  teaser: "/assets/images/500x300.png"
+
 categories: 
   - TEST1
 tags:
-  - test
+  - [haha, test]
+
+toc: true
+toc_sticky: true
+
+date: 2022-11-09
+last_modified_at: 2022-11-10
 ---
 
 테스트

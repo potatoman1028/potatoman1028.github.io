@@ -1,11 +1,16 @@
 ---
 title:  "TEST2"
-header:
-  teaser: "/assets/images/500x300.png"
+
 categories: 
-  - TEST2
+  - TEST
 tags:
-  - test
+  - test2
+
+toc: true
+toc_sticky: true
+
+date: 2022-11-09
+last_modified_at: 2022-11-10  
 ---
 
 테스트2

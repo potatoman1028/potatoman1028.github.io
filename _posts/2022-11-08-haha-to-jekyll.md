@@ -1,14 +1,22 @@
 ---
-title:  "TEST6"
-header:
-  teaser: "/assets/images/500x300.png"
+title:  "HAHAHA"
+
 categories: 
-  - TEST6
+  - HAHA
 tags:
-  - test
+  - test1
+
+tags:
+  - [haha, test]
+
+toc: true
+toc_sticky: true
+
+date: 2022-11-10
+last_modified_at: 2022-11-10
 ---
 
-테스트
+하하
 
 <!-- Jekyll also offers powerful support for code snippets:
 
