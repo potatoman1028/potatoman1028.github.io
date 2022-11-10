@@ -104,8 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Note"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "생각의 휴지통"
+  avatar           : "/assets/images/potatoman.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "..."
   location         : "Korea"
   email            : "tomorrow_1028@naver.com"
@@ -264,14 +264,16 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar_main: true
+
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
       comments: true # true
       share: true
       related: true
+      author_profile: true
       sidebar_main: true
