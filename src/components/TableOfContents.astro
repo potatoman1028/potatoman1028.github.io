@@ -14,13 +14,24 @@ export interface Heading {
 function buildToc(headings: Heading[]) {
   const toc: Heading[] = [];
   const parentHeadings = new Map();
+  const minDepth = Math.min(...headings.map((h) => h.depth));
+
   headings.forEach((h) => {
     const heading = { ...h, subheadings: [] };
     parentHeadings.set(heading.depth, heading);
-    if (heading.depth === 2) {
+    if (heading.depth === minDepth) {
       toc.push(heading);
     } else {
-      parentHeadings.get(heading.depth - 1).subheadings.push(heading);
+      let parentDepth = heading.depth - 1;
+      while (parentDepth >= minDepth && !parentHeadings.has(parentDepth)) {
+        parentDepth--;
+      }
+      const parent = parentHeadings.get(parentDepth);
+      if (parent) {
+        parent.subheadings.push(heading);
+      } else {
+        toc.push(heading);
+      }
     }
   });
   return toc;

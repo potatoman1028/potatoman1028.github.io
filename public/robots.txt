@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://potatoman1028.github.io/sitemap-index.xml

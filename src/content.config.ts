@@ -12,6 +12,17 @@ const blog = defineCollection({
   }),
 });
 
+const aiReports = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: "./src/content/ai-reports" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    date: z.coerce.date(),
+    draft: z.boolean().optional(),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
 const projects = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: "./src/content/projects" }),
   schema: z.object({
@@ -24,4 +35,4 @@ const projects = defineCollection({
   }),
 });
 
-export const collections = { blog, projects };
+export const collections = { blog, projects, "ai-reports": aiReports };
