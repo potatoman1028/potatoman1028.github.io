@@ -2,7 +2,7 @@
 title: "블로그를 시작하며"
 description: "블로그 개설 목적과 앞으로 다룰 내용들에 대한 소개입니다."
 date: "2026-03-17"
-tags: ["intro", "welcome"]
+tags: ["intro", "welcome", "blog", "potato-lab"]
 ---
 
 이것 저것 적을 예정입니다.

@@ -1,7 +1,7 @@
----
 title: "사이트 내 검색 강화를 위한 태그 가이드"
 description: "게시글이 더 잘 검색되도록 하는 태그 활용법과 추천 태그 리스트입니다."
 date: "2026-03-17"
+tags: ["tags", "search", "guide", "pagefind", "seo", "keywords"]
 ---
 
 # 사이트 내 검색 강화를 위한 태그 가이드
