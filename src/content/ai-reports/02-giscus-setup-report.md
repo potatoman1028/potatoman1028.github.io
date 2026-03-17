@@ -31,25 +31,25 @@ date: "2026-03-17"
 ## 3. 기술적 구현 내용
 `src/components/Giscus.astro` 파일을 수정하여 추출된 고유 ID 값들을 반영했습니다.
 
-### 주요 수정 코드 (diff)
+### 주요 수정 코드 (예시)
 ```astro
  <script
    is:inline
    data-astro-rerun
    src="https://giscus.app/client.js"
--  data-repo="trevortylerlee/astro-micro"
--  data-repo-id="R_kgDOL_6l9Q"
+-  data-repo="[이전저장소]"
+-  data-repo-id="[이전ID]"
 +  data-repo="potatoman1028/potatoman1028.github.io"
-+  data-repo-id="R_kgDOIE2urg"
++  data-repo-id="[사용자-저장소-ID]"
    data-category="Announcements"
--  data-category-id="DIC_kwDOL_6l9c4Cfk55"
-+  data-category-id="DIC_kwDOIE2urs4CSWRt"
-   ...
+-  data-category-id="[이전카테고리ID]"
++  data-category-id="[사용자-카테고리-ID]"
+    ...
 -  data-input-position="top"
 +  data-input-position="bottom"
 -  data-lang="en"
 +  data-lang="ko"
-   ...
+    ...
  ></script>
 ```
 
