@@ -24,7 +24,7 @@ date: "2026-03-17"
 - `public/robots.txt` 파일을 생성하여 모든 검색 로봇의 접근을 허용하고 `sitemap-index.xml` 위치를 명시함.
 
 ### Step 2: 구글 서치 콘솔(Google Search Console) 인증
-- 사용자로부터 받은 인증용 HTML 파일명 및 내용을 바탕으로 `public/google3ec3bf3afefb5768.html`을 생성.
+- 사용자로부터 받은 인증용 HTML 파일명 및 내용을 바탕으로 `public/google[인증코드].html`을 생성.
 - 로컬 커밋 및 푸시를 통해 실제 서버에 배포 완료.
 
 ### Step 3: 깃허브 액션(GitHub Actions) 빌드 트러블슈팅
@@ -34,7 +34,7 @@ date: "2026-03-17"
 
 ### Step 4: 네이버 서치어드바이저(Naver Search Advisor) 인증
 - **1차 시도 (파일 방식)**: 파일은 정상 배포되었으나 네이버 측에서 인식이 지연됨.
-- **2차 시도 (태그 방식)**: 가장 안정적인 HTML 메타 태그 방식을 채택하여 `src/components/Head.astro`에 직접 삽입.
+- **2차 시도 (태그 방식)**: 가장 안정적인 HTML 메타 태그 방식을 채택하여 `src/components/Head.astro`에 직접 삽입. (개인 식별 코드는 마스킹 처리)
 - 최종적으로 네이버 크롤러가 사이트 헤더에서 인증 정보를 즉시 읽을 수 있도록 조치함.
 
 ---
