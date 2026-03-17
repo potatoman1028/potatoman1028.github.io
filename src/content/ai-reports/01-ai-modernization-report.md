@@ -2,7 +2,6 @@
 title: "Astro를 이용한 블로그 구축 및 AI 협업 환경 설정 리포트"
 description: "Astro 프로젝트의 개발 환경 구축부터 AI Report 기능 추가까지의 전체 과정을 통합한 상세 리포트입니다."
 date: "2026-03-17"
-tags: ["astro", "ai", "modernization", "report", "setup", "collaboration"]
 ---
 
 # Astro를 이용한 블로그 구축 및 AI 협업 환경 설정 리포트

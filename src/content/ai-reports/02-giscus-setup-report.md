@@ -1,7 +1,7 @@
+---
 title: "Giscus 댓글 시스템 개인화 및 설정 리포트"
 description: "기존 데모 저장소에서 본인 저장소로 댓글 시스템을 이전하고 최적화한 기록입니다."
 date: "2026-03-17"
-tags: ["giscus", "comments", "setup", "github-discussions", "personalization"]
 ---
 
 # Giscus 댓글 시스템 개인화 및 설정 리포트

@@ -1,7 +1,7 @@
+---
 title: "검색 엔진 최적화(SEO) 및 검색 등록 리포트"
 description: "구글과 네이버 검색 노출을 위한 기술적 세팅 및 소유권 인증 과정의 기록입니다."
 date: "2026-03-17"
-tags: ["seo", "search", "google", "naver", "verification", "sitemap", "robots-txt"]
 ---
 
 # 검색 엔진 최적화(SEO) 및 검색 등록 리포트
