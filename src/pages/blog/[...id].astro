@@ -47,11 +47,13 @@ function getPrevPost() {
 const nextPost = getNextPost();
 const prevPost = getPrevPost();
 
-const post = Astro.props;
+const { post } = Astro.props;
 const { Content, headings } = await render(post);
+
+const keywords = post.data.tags ? post.data.tags.join(", ") : undefined;
 ---
 
-<Layout title={post.data.title} description={post.data.description}>
+<PageLayout title={post.data.title} description={post.data.description} keywords={keywords}>
   <Container>
     <div class="animate">
       <BackToPrevious href="/blog">Back to blog</BackToPrevious>

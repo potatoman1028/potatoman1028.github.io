@@ -49,9 +49,11 @@ const prevPost = getPrevReport();
 
 const report = Astro.props;
 const { Content, headings } = await render(report);
+
+const keywords = report.data.tags ? report.data.tags.join(", ") : undefined;
 ---
 
-<Layout title={report.data.title} description={report.data.description}>
+<Layout title={report.data.title} description={report.data.description} keywords={keywords}>
   <Container>
     <div class="animate">
       <BackToPrevious href="/ai-reports">Back to AI Reports</BackToPrevious>
