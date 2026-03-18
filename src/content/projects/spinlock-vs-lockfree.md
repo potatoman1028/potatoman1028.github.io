@@ -1,6 +1,6 @@
 ---
 title: "스핀락과 락프리 (Spinlock vs Lock-free)"
-description: "멀티스레딩 환경에서 동기화 알고리즘의 차이를 분석한 프로젝트 기록입니다."
+description: "스핀락과 락프리는 어떤 차이 일까?"
 date: "2026-03-17"
 repoURL: "https://github.com/potatoman1028"
 ---
