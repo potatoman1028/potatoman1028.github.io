@@ -1,4 +1,6 @@
 ---
+import { readdir } from "node:fs/promises";
+import { extname } from "node:path";
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
@@ -9,6 +11,21 @@ import Link from "@components/Link.astro";
 import TableOfContents from "@components/TableOfContents.astro";
 
 export async function getStaticPaths() {
+  const projectsDir = new URL("../../content/projects", import.meta.url);
+
+  try {
+    const entries = await readdir(projectsDir, { recursive: true, withFileTypes: true });
+    const hasProjectContent = entries.some(
+      (entry) => entry.isFile() && [".md", ".mdx"].includes(extname(entry.name)),
+    );
+
+    if (!hasProjectContent) {
+      return [];
+    }
+  } catch {
+    return [];
+  }
+
   const projects = (await getCollection("projects"))
     .filter((post) => !post.data.draft)
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());

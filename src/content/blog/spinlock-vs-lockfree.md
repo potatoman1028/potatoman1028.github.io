@@ -2,7 +2,7 @@
 title: "스핀락과 락프리 (Spinlock vs Lock-free)"
 description: "스핀락과 락프리는 어떤 차이일까?"
 date: "2026-03-17"
-repoURL: "https://github.com/potatoman1028"
+tags: ["concurrency", "lock-free", "spinlock"]
 ---
 
 이전에 공부하면서 처음 Lock Free 알고리즘을 알게 되었을 때, 이런 생각이 들었습니다. 
@@ -26,7 +26,7 @@ counter++;
 // 3. 결과를 counter에 다시 쓰기    (STORE)
 ```
 
-![레이스 컨디션 예시](/projects/spinlock-vs-lockfree/race-condition.svg)
+![레이스 컨디션 예시](/blog/spinlock-vs-lockfree/race-condition.svg)
 
 이 세 단계 사이에 다른 스레드가 끼어들면 결과가 망가질 수 있습니다.
 
