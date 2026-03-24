@@ -1,6 +1,6 @@
 ---
 title: "스핀락과 락프리 (Spinlock vs Lock-free)"
-description: "스핀락과 락프리는 어떤 차이일까?"
+description: "공부하다 궁금했던 것 정리"
 date: "2026-03-17"
 tags: ["concurrency", "lock-free", "spinlock"]
 ---
